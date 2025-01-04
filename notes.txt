@@ -1,0 +1,22 @@
+2. Create the Core Features
+Example Features:
+Project Management
+
+Create, read, update, delete (CRUD) projects.
+A Project entity might have fields like:
+id (UUID or auto-generated ID)
+name
+description
+startDate
+endDate
+status (e.g., "In Progress," "Completed").
+Task Management (within Projects)
+
+Each project can have multiple tasks.
+A Task entity might include:
+id
+name
+description
+dueDate
+status (e.g., "To Do," "In Progress," "Done").
+projectId (foreign key).
